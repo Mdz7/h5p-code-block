@@ -1,0 +1,14 @@
+{
+  "title": "Code Block Example",
+  "language": "en",
+  "mainLibrary": "H5P.CodeBlockViewer",
+  "embedTypes": ["div"],
+  "license": "MIT",
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.CodeBlockViewer",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ]
+}

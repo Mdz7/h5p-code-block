@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Test H5P Code Block</title>
+
+  <link rel="stylesheet" href="H5P.CodeBlockViewer-1.0/styles/atom-one-dark.min.css">
+  <script src="H5P.CodeBlockViewer-1.0/scripts/highlight.min.js"></script>
+
+  <link rel="stylesheet" href="H5P.CodeBlockViewer-1.0/styles.css">
+</head>
+
+<body>
+
+<div id="app"></div>
+
+<script>
+  window.H5P = {};
+</script>
+
+<script src="H5P.CodeBlockViewer-1.0/script.js"></script>
+
+<script>
+  const instance = new H5P.CodeBlockViewer({
+    code: `function test() {
+  console.log("Hola");
+}`,
+    language: "javascript",
+    showLineNumbers: true
+  }, 1);
+
+  const container = {
+  get: (index) => [document.getElementById("app")][index]
+};
+
+  instance.attach(container);
+</script>
+
+</body>
+</html>

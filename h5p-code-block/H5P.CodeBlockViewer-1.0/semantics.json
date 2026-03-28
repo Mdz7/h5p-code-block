@@ -1,0 +1,29 @@
+[
+  {
+    "name": "code",
+    "type": "text",
+    "widget": "textarea",
+    "label": "Código",
+    "optional": false
+  },
+  {
+    "name": "language",
+    "type": "select",
+    "label": "Lenguaje",
+    "options": [
+      { "value": "javascript", "label": "JavaScript" },
+      { "value": "python", "label": "Python" },
+      { "value": "html", "label": "HTML" },
+      { "value": "css", "label": "CSS" },
+      { "value": "java", "label": "Java" },
+      { "value": "plaintext", "label": "Texto plano" }
+    ],
+    "default": "javascript"
+  },
+  {
+    "name": "showLineNumbers",
+    "type": "boolean",
+    "label": "Mostrar números de línea",
+    "default": true
+  }
+]

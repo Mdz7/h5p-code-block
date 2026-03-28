@@ -1,0 +1,47 @@
+.h5p-code-wrapper {
+  position: relative;
+  background: #1e1e1e;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: monospace;
+  overflow-x: auto;
+}
+
+.h5p-code-wrapper pre {
+  margin: 0;
+  display: flex;
+  width: 100%;
+}
+
+.h5p-code-wrapper code {
+  color: #fff;
+  font-size: 14px;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.copy-btn:hover {
+  background: #555;
+}
+
+.line-numbers {
+  text-align: right;
+  margin-right: 10px;
+  color: #888;
+  user-select: none;
+}
+
+.line-numbers span {
+  display: block;
+  font-size: 12px;
+}

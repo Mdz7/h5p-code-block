@@ -1,0 +1,31 @@
+{
+  "title": "Code Block Viewer",
+  "description": "Display formatted code with syntax highlighting",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "machineName": "H5P.CodeBlockViewer",
+  "author": "Mario Diaz",
+  "license": "MIT",
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 24
+  },
+  "preloadedJs": [
+    {
+      "path": "scripts/highlight.min.js"
+    },
+    {
+      "path": "script.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "styles/default.min.css"
+    },
+    {
+      "path": "styles.css"
+    }
+  ]
+}
