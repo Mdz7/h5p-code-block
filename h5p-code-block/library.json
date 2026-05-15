@@ -1,0 +1,17 @@
+{
+  "title": "Code Block Editor",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "machineName": "H5P.CodeBlock",
+  "author": "Mario Diaz",
+  "license": "MIT",
+  "preloadedJs": [
+    { "path": "scripts/highlight.min.js" },
+    { "path": "h5p-code-block.js" }
+  ],
+  "preloadedCss": [
+    { "path": "styles/custom-styles.css" }
+  ]
+}
